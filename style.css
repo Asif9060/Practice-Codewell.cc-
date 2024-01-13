@@ -74,37 +74,51 @@ body {
 
     .brandLogos {
         position: relative;
+        
+    }
+
+    .brandLogos a img {
+        width: 65px;
     }
     .brandLogos .down1 a{
        position: absolute;
-       top: 46px;
+       top: 26px;
        left: 0px;
         
     }
 
     .brandLogos .down2 a {
         position: absolute;
-        top: 46px;
-        left: 117px;
+        top: 27px;
+        left: 261px;
     }
     
     .brandLogos .down3 a {
         position: absolute;
-        top: 46px;
-        left: 291px;
+        top: -34px;
+        left: 262px;
     }
 
     .brandLogos .jp a {
-        margin-left: 37px;
+        position: absolute;
+        top: -32px;
+        left: 135px;
 
     }
 
     .brandLogos .visa a {
-        margin-left: 20px;
+        position: absolute;
+        top: 26px;
+        left: 135px;
+    }
+
+    .brandLogos .wal a {
+        position: absolute;
+        top: -32px;
     }
 
     .card-footer a {
         position: relative;
-        left: 146px;
+        left: 100px;
     }
 }
