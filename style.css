@@ -1,0 +1,110 @@
+body {
+    background-color:black;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+.collapse .navbar-nav .nav-item a{
+    color: #9B9C9B;
+}
+
+.h1 {
+    font-size:58px;
+}
+.nav-link:hover {
+    color: tomato;
+}
+.btn {
+    border-radius: 0;
+}
+
+.text {
+    color: aliceblue;
+}
+
+.text p {
+    color: #9B9C9B;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.card-body {
+    background-color: black;
+    color: aliceblue;
+}
+
+.card-body p {
+    color: #9B9C9B;
+}
+
+.description {
+    color: #9B9C9B;
+}
+
+.descriptions {
+    background-color: #2E3038;
+    border-radius: 10px;
+}
+
+.card-body p {
+    font-size: 1rem;
+}
+
+.card-footer {
+    background: #2E3038;
+    color: aliceblue;
+}
+
+.card-footer a {
+    position: relative;
+    left: 880px;
+}
+
+@media (max-width :480px) {
+
+    .brandLogos {
+        position: relative;
+    }
+    .brandLogos .down1 a{
+       position: absolute;
+       top: 46px;
+       left: 0px;
+        
+    }
+
+    .brandLogos .down2 a {
+        position: absolute;
+        top: 46px;
+        left: 117px;
+    }
+    
+    .brandLogos .down3 a {
+        position: absolute;
+        top: 46px;
+        left: 291px;
+    }
+
+    .brandLogos .jp a {
+        margin-left: 37px;
+
+    }
+
+    .brandLogos .visa a {
+        margin-left: 20px;
+    }
+
+    .card-footer a {
+        position: relative;
+        left: 146px;
+    }
+}
